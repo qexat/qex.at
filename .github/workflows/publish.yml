@@ -20,6 +20,6 @@ jobs:
           user: ${{ secrets.USER }}
           pass: ${{ secrets.PASS }}
           first_ssh: |
-            rm -rf ./qexat/*
+            rm -rf ./www/qex.at/*
           scp: |
-            ./src/* => ./qexat/
+            ./src/* => ./www/qex.at/

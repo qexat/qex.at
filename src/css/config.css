@@ -5,56 +5,36 @@
   color-scheme: light dark;
 
   --small-screen-width: 768px;
+  --font-display: "Fugaz One", display;
+  --font-sans-serif: "Host Grotesk", sans-serif;
   --font-monospace: "VT323", monospace;
 
-  --background-level-1: light-dark(
-    var(--primary-tint-6),
-    var(--primary-shade-6)
-  );
-  --background-level-2: light-dark(
-    var(--primary-tint-5),
-    var(--primary-shade-5)
-  );
-  --background-level-3: light-dark(
-    var(--primary-tint-4),
-    var(--primary-shade-4)
-  );
+  --background-level-1: light-dark(var(--primary-tint-6),
+      var(--primary-shade-6));
+  --background-level-2: light-dark(var(--primary-tint-5),
+      var(--primary-shade-5));
+  --background-level-3: light-dark(var(--primary-tint-4),
+      var(--primary-shade-4));
 
-  --foreground-level-1: light-dark(
-    var(--primary-shade-6),
-    var(--primary-tint-4)
-  );
-  --foreground-level-2: light-dark(
-    var(--primary-shade-5),
-    var(--primary-tint-5)
-  );
-  --foreground-level-3: light-dark(
-    var(--primary-shade-4),
-    var(--primary-tint-6)
-  );
+  --foreground-level-1: light-dark(var(--primary-shade-6),
+      var(--primary-tint-4));
+  --foreground-level-2: light-dark(var(--primary-shade-5),
+      var(--primary-tint-5));
+  --foreground-level-3: light-dark(var(--primary-shade-4),
+      var(--primary-tint-6));
 
-  --foreground-primary-1: light-dark(
-    var(--primary-shade-2),
-    var(--primary-shade-3)
-  );
-  --foreground-primary-2: light-dark(
-    var(--primary-shade-1),
-    var(--primary-shade-2)
-  );
+  --foreground-primary-1: light-dark(var(--primary-shade-2),
+      var(--primary-shade-3));
+  --foreground-primary-2: light-dark(var(--primary-shade-1),
+      var(--primary-shade-2));
   --foreground-primary-3: light-dark(var(--primary-pure), var(--primary-pure));
 
-  --foreground-complementary-1: light-dark(
-    var(--complementary-shade-2),
-    var(--complementary-shade-3)
-  );
-  --foreground-complementary-2: light-dark(
-    var(--complementary-shade-1),
-    var(--complementary-shade-2)
-  );
-  --foreground-complementary-3: light-dark(
-    var(--complementary-pure),
-    var(--complementary-pure)
-  );
+  --foreground-complementary-1: light-dark(var(--complementary-shade-2),
+      var(--complementary-shade-3));
+  --foreground-complementary-2: light-dark(var(--complementary-shade-1),
+      var(--complementary-shade-2));
+  --foreground-complementary-3: light-dark(var(--complementary-pure),
+      var(--complementary-pure));
 
   --border-width-default: 2px;
 
@@ -66,12 +46,12 @@
 
   --slide-content-padding: 5em 10em;
 
-  --title-font-family: var(--font-monospace);
+  --title-font-family: var(--font-display);
   --title-font-weight: 900;
   --title-margin: 0;
 
-  --description-font-family: var(--font-monospace);
-  --description-font-size: 1.8em;
+  --description-font-family: var(--font-sans-serif);
+  --description-font-size: 2.5em;
   --description-width: 100%;
 }
 
