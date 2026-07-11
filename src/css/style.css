@@ -102,22 +102,9 @@ div.banner {
   }
 
   &.banner-title {
-    font-size: calc(100cqh / 5);
+    font-size: var(--title-font-size);
     font-weight: 900;
     font-family: var(--title-font-family);
-
-    padding: 0 0.2em;
-  }
-
-  &.banner-button {
-    height: calc(100cqh / 6);
-
-    background-color: var(--gray-tint-3);
-    color: var(--gray-shade-3);
-
-    font-family: var(--title-font-family);
-    font-size: calc(100cqh / 10);
-    justify-content: left;
 
     padding: 0 0.2em;
   }
@@ -176,4 +163,14 @@ div.paragraph {
 
 p {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  div.banner:nth-of-type(n) {
+    justify-content: center;
+  }
+
+  div.paragraph {
+    justify-content: center;
+  }
 }
