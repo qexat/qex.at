@@ -30,7 +30,7 @@ for (let banner of clickableBanners) {
                 mainBanner.style.height = "100cqh";
 
                 setTimeout(() => {
-                    history.back();
+                    document.location.assign("../");
                 }, 500);
                 break;
             default:
